@@ -57,5 +57,6 @@ bag.close # free bag
 https://dev.intelrealsense.com/docs/python2 <br/>
 https://dev.intelrealsense.com/docs/ros-wrapper <br/>
 https://dev.intelrealsense.com/docs/opencv-wrapper <br/>
-http://wiki.ros.org/rosbag/Code%20API#Python_API 
+http://wiki.ros.org/rosbag/Code%20API#Python_API <br/>
+http://wiki.ros.org/rosbag/Commandline
 
