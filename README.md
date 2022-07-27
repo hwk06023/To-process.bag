@@ -1,5 +1,16 @@
 # To-process.bag
-to process .bag (ROSbag)
+to process .bag (ROS Bag file)
+<br/>
+<br/>
+
+
+
+### Q. What is "ROS Bag file"?
+A. "ROS Bag file" contain all data of each stream type(Color, Depth, Infrared)
+
+### Q. What does this program process(handle)?
+A. ROS Bag file extracts depth and information of detected objects, PointCloud, Color, etc..
+
 
 ## I. Install ROS
 
@@ -7,12 +18,26 @@ to process .bag (ROSbag)
 
 2. In console <br/>
 ```console
-sudo apt-get install python3-roslaunch
- ```
+sudo apt-get install python3-roslaunch 
+```
 
 ```console
 sudo apt-get install python3-rosbag 
 ``` 
 
 ## II. Rosbag API in python3
+
+
+
+
+
+
+<br/>
+<br/>
+
+### Reference
+https://dev.intelrealsense.com/docs/python2 <br/>
+https://dev.intelrealsense.com/docs/ros-wrapper <br/>
+https://dev.intelrealsense.com/docs/opencv-wrapper <br/>
+http://wiki.ros.org/rosbag/Code%20API#Python_API s
 
