@@ -12,7 +12,7 @@ A. "ROS Bag file" contain all data of each stream type(Color, Depth, Infrared)
 A. ROS Bag file extracts depth and information of detected objects, PointCloud, Color, etc..
 
 
-## I. Install ROS
+## I. Install ROS & pyrealsense2
 
 1. Download to [here](https://www.ros.org/blog/getting-started/)
 
@@ -24,6 +24,16 @@ sudo apt-get install python3-roslaunch
 ```console
 sudo apt-get install python3-rosbag 
 ``` 
+
+```console
+pip3 install -U bagpy
+```
+
+<br/>
+
+```console
+pip3 install pyrealsense2
+```
 
 ## II. Rosbag API in python3
 
@@ -47,7 +57,21 @@ bag.close # free bag
 
 ## III. Bag file to Depth bag file
 
+```python
 
+
+```
+
+
+<br/>
+<br/>
+
+## IV. Point Cloud
+
+```python
+
+
+```
 
 
 <br/>
@@ -58,5 +82,5 @@ https://dev.intelrealsense.com/docs/python2 <br/>
 https://dev.intelrealsense.com/docs/ros-wrapper <br/>
 https://dev.intelrealsense.com/docs/opencv-wrapper <br/>
 http://wiki.ros.org/rosbag/Code%20API#Python_API <br/>
-http://wiki.ros.org/rosbag/Commandline
-
+http://wiki.ros.org/rosbag/Commandline <br/>
+https://jmscslgroup.github.io/bagpy/index.html
