@@ -88,6 +88,39 @@ sudo apt install ros-rolling-ros-base
 
 <br/>
 
+### Rviz
+
+1. Build from Source
+
+```console
+sudo apt install ros-foxy-ros-base
+
+sudo apt install ros-foxy-desktop
+
+source /opt/ros/foxy/setup.bash
+```
+
+
+```console
+sudo apt-get install ros-foxy-rviz-visual-tools
+
+ros2 launch rviz_visual_tools demo_rviz.launch.py
+```
+
+```console
+ros2 launch rviz_visual_tools demo_rviz.launch.py
+
+rosdep install --from-paths src --ignore-src --rosdistro foxy
+```
+
+2. Quick Start Demo
+
+```console
+ros2 run rviz_visual_tools
+```
+
+
+
 ### Bagpy
 
 ```console
@@ -155,4 +188,5 @@ https://dev.intelrealsense.com/docs/opencv-wrapper <br/>
 http://wiki.ros.org/rosbag/Code%20API#Python_API <br/>
 http://wiki.ros.org/rosbag/Commandline <br/>
 https://jmscslgroup.github.io/bagpy/index.html <br/>
-https://docs.ros.org/en/rolling/Installation/Alternatives/Ubuntu-Development-Setup.html
+https://docs.ros.org/en/rolling/Installation/Alternatives/Ubuntu-Development-Setup.html <br/>
+https://index.ros.org/p/rviz_visual_tools/
