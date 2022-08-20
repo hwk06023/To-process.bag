@@ -6,7 +6,7 @@ to process .bag (ROS Bag file)
 ### My Ddevelopment Environment
 |Info||
 |:---:|:---:|
-|Camera Model|D455|Required Info
+|Using device|RealSense(D455), Multipleye
 |Operating System & Version|Ubuntu 20.04|
 |Platform|PC|
 |SDK Version|2.0|
@@ -373,7 +373,7 @@ Option <br/>
 
 <br/>
 
-
+Console-1
 
 ```console
 rostopic echo /device_0/sensor_0/Depth_0/image/data
