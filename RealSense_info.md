@@ -110,3 +110,19 @@
 /file_version <br/>
 /rosout <br/>
 /rosout_agg <br/>
+
+
+
+Using PCL
+
+
+
+
+/device_0/sensor_0/Depth_0/image/data
+Type: sensor_msgs/Image
+
+encoding : mono16
+
+fixed_id : 1
+
+1? why 1?

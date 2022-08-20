@@ -194,6 +194,8 @@ sudo apt install ros-rolling-ros-base
 ### Rviz - Ros1
 #### noetic
 
+1. Install
+
 ```console
 sudo apt-get install ros-fuerte-visualization
 ```
@@ -201,6 +203,8 @@ sudo apt-get install ros-fuerte-visualization
 ```console
 sudo apt-get install ros-noetic-rviz
 ```
+
+2. Display
 
 ```console
 source /opt/ros/noetic/setup.bash(.zsh ..)
@@ -270,6 +274,13 @@ pip3 install pyrealsense2
 ## II. Rviz
 
 
+```console
+rosrun rosbag record -O Countyfair.bag /velodyne_packets
+```
+
+```console
+rosbag play Countyfair.bag
+```
 
 
 
@@ -341,10 +352,31 @@ bag.close # free bag
 
 ## VI. Point Cloud
 
-```python
+Console -1
 
-
+```console
+roscore &
 ```
+
+Console -2
+
+```console
+rosbag play --clock [Data] -l
+```
+
+[Data] : ex_1.bag, ex_2.bag ...<br/>
+
+
+Option <br/>
+(--clock) : To displaytime <br/>
+(-l) : endless repetition <br/>
+
+
+```console
+rostopic echo /device_0/sensor_0/Depth_0/image/data
+```
+
+
 
 
 <br/>
@@ -360,3 +392,4 @@ https://jmscslgroup.github.io/bagpy/index.html <br/>
 https://docs.ros.org/en/rolling/Installation/Alternatives/Ubuntu-Development-Setup.html <br/>
 https://index.ros.org/p/rviz_visual_tools/<br/>
 https://index.ros.org/p/example_interfaces/#humble-overview <br/>
+https://velog.io/@717lumos/Rviz-Rviz-%EC%8B%9C%EA%B0%81%ED%99%94%ED%95%98%EA%B8%B0-Marker <br/>
