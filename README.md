@@ -352,13 +352,13 @@ bag.close # free bag
 
 ## VI. Point Cloud
 
-Console -1
+Console-1
 
 ```console
 roscore &
 ```
 
-Console -2
+Console-2
 
 ```console
 rosbag play --clock [Data] -l
@@ -370,6 +370,9 @@ rosbag play --clock [Data] -l
 Option <br/>
 (--clock) : To displaytime <br/>
 (-l) : endless repetition <br/>
+
+<br/>
+
 
 
 ```console
