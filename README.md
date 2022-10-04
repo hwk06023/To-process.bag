@@ -275,11 +275,11 @@ pip3 install pyrealsense2
 
 
 ```console
-rosrun rosbag record -O Countyfair.bag /velodyne_packets
+rosrun rosbag record -O ~~~.bag /velodyne_packets
 ```
 
 ```console
-rosbag play Countyfair.bag
+rosbag play ~~~.bag
 ```
 
 
@@ -368,7 +368,12 @@ Console-1
 rostopic echo /device_0/sensor_0/Depth_0/image/data
 ```
 
+<br/>
+<br/>
 
+## SLAM
+
+[SLAM](https://github.com/hwk06023/SLAM) is still being written.
 
 
 <br/>
