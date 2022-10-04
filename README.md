@@ -337,17 +337,6 @@ bag.close # free bag
 ```
 
 <br/>
-<Br/>
-
-## V. Bag file to Depth bag file
-
-```python
-
-
-```
-
-
-<br/>
 <br/>
 
 ## VI. Point Cloud
