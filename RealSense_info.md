@@ -113,16 +113,17 @@
 
 
 
-Using PCL2
+#### Using Image data
 
 
 
 
-/device_0/sensor_0/Depth_0/image/data
-Type: sensor_msgs/Image
+/device_0/sensor_0/Depth_0/image/data <br/>
+Type: sensor_msgs/Image  <br/>
 
-encoding : mono16
+encoding : mono16  <br/>
 
-fixed_id : 1
+fixed_id : 1  <br/>
 
-1? why 1?
+How can i use this type to PCl...  <br/>
+Anyone who knows the answer please leave an issue!
